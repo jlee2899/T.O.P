@@ -1,0 +1,42 @@
+body {
+   background-color: #AF875D;
+   color: #F8F0E3;
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+    color: #F8F0E3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.recipeblock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+div img {
+    width: 400px;
+    height: 300px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+div p {
+margin: 2px;
+}
